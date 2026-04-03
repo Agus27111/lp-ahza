@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AHZA Digitals | Professional Software House</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- AOS (Animate On Scroll) Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0f172a" /* Deep Navy */,
+              accent: "#3b82f6" /* Electric Blue */,
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Custom CSS for specific tweaks (like hiding default details marker) -->
+    <style>
+      /* Sembunyikan panah default pada tag details/summary */
+      details > summary {
+        list-style: none;
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="font-sans text-slate-800 antialiased bg-slate-50">
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header
+      class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all duration-300"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <!-- Logo -->
+          <div
+            class="flex-shrink-0 flex items-center gap-2 cursor-pointer"
+            onclick="window.scrollTo(0, 0)"
+          >
+            <div
+              class="w-10 h-10 bg-accent text-white flex items-center justify-center rounded-lg font-bold text-xl"
+            >
+              A
+            </div>
+            <span class="font-bold text-2xl text-primary tracking-tight"
+              >AHZA<span class="text-accent">.</span></span
+            >
+          </div>
+
+          <!-- Desktop Menu -->
+          <nav class="hidden md:flex space-x-8 items-center">
+            <a
+              href="#home"
+              class="text-slate-600 hover:text-accent font-medium transition-colors"
+              >Home</a
+            >
+            <a
+              href="#services"
+              class="text-slate-600 hover:text-accent font-medium transition-colors"
+              >Services</a
+            >
+            <a
+              href="#portfolio"
+              class="text-slate-600 hover:text-accent font-medium transition-colors"
+              >Portfolio</a
+            >
+            <a
+              href="#faq"
+              class="text-slate-600 hover:text-accent font-medium transition-colors"
+              >FAQ</a
+            >
+          </nav>
+
+          <!-- CTA Button Desktop -->
+          <div class="hidden md:flex">
+            <a
+              href="#contact"
+              class="bg-accent hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-medium transition-all shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50"
+            >
+              Mulai Proyek
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden flex items-center">
+            <button
+              id="mobile-menu-btn"
+              class="text-slate-600 hover:text-primary focus:outline-none p-2"
+            >
+              <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Dropdown -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white border-t border-slate-100 shadow-xl absolute w-full"
+      >
+        <div class="px-4 pt-2 pb-6 space-y-2 text-center">
+          <a
+            href="#home"
+            class="block px-3 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-accent rounded-md"
+            >Home</a
+          >
+          <a
+            href="#services"
+            class="block px-3 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-accent rounded-md"
+            >Services</a
+          >
+          <a
+            href="#portfolio"
+            class="block px-3 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-accent rounded-md"
+            >Portfolio</a
+          >
+          <a
+            href="#faq"
+            class="block px-3 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-accent rounded-md"
+            >FAQ</a
+          >
+          <a
+            href="#contact"
+            class="block px-3 py-3 mt-4 bg-accent text-white font-medium rounded-full mx-4 shadow-lg"
+            >Mulai Proyek</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section
+      id="home"
+      class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-primary overflow-hidden min-h-[90vh] flex items-center"
+    >
+      <!-- Abstract Background Decoration -->
+      <div
+        class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
+      >
+        <div
+          class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-accent/20 rounded-full blur-[120px]"
+        ></div>
+        <div
+          class="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-blue-400/10 rounded-full blur-[100px]"
+        ></div>
+        <!-- Grid Pattern -->
+        <div
+          class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-30"
+        ></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-3xl">
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-accent text-sm font-semibold mb-6"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <span class="relative flex h-2 w-2">
+              <span
+                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"
+              ></span>
+              <span
+                class="relative inline-flex rounded-full h-2 w-2 bg-accent"
+              ></span>
+            </span>
+            Solusi Digital Masa Depan
+          </div>
+          <h1
+            class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            Transformasi Bisnis Anda dengan
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-400"
+              >Teknologi Terdepan</span
+            >
+          </h1>
+          <p
+            class="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            AHZA Digitals adalah mitra strategis Anda dalam membangun aplikasi
+            web, mobile, dan sistem enterprise. Kami mengubah ide brilian
+            menjadi produk digital yang kuat dan terukur.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row gap-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a
+              href="https://wa.me/6287822368008"
+              target="_blank"
+              class="flex justify-center items-center gap-2 bg-accent hover:bg-blue-600 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg shadow-blue-500/25"
+            >
+              <i class="fa-brands fa-whatsapp text-xl"></i> Konsultasi Gratis
+            </a>
+            <a
+              href="#portfolio"
+              class="flex justify-center items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-8 py-4 rounded-full font-semibold transition-all"
+            >
+              <i class="fa-solid fa-layer-group"></i> Lihat Portofolio
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES SECTION ================= -->
+    <section id="services" class="py-24 bg-slate-50 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2
+            class="text-accent font-bold tracking-wide uppercase text-sm mb-2"
+          >
+            Layanan Kami
+          </h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-primary">
+            Solusi Digital Komprehensif
+          </h3>
+          <p class="mt-4 text-slate-600 text-lg">
+            Kami menyediakan layanan end-to-end untuk memastikan produk Anda
+            tidak hanya terlihat bagus, tetapi juga berkinerja maksimal.
+          </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Card 1 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:scale-105 transition-all duration-300 group"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-accent text-2xl mb-6 group-hover:bg-accent group-hover:text-white transition-colors"
+            >
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h4 class="text-xl font-bold text-primary mb-3">Custom Web Dev</h4>
+            <p class="text-slate-600 leading-relaxed">
+              Website kustom berkinerja tinggi, responsif, dan disesuaikan
+              dengan kebutuhan bisnis unik Anda.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:scale-105 transition-all duration-300 group"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-accent text-2xl mb-6 group-hover:bg-accent group-hover:text-white transition-colors"
+            >
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h4 class="text-xl font-bold text-primary mb-3">Mobile Apps</h4>
+            <p class="text-slate-600 leading-relaxed">
+              Aplikasi iOS dan Android yang intuitif dengan pengalaman pengguna
+              yang mulus dan fitur canggih.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:scale-105 transition-all duration-300 group"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-accent text-2xl mb-6 group-hover:bg-accent group-hover:text-white transition-colors"
+            >
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <h4 class="text-xl font-bold text-primary mb-3">
+              Enterprise System
+            </h4>
+            <p class="text-slate-600 leading-relaxed">
+              Sistem terintegrasi skala besar seperti ERP, CRM, dan sistem
+              manajemen untuk otomatisasi bisnis.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:scale-105 transition-all duration-300 group"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-accent text-2xl mb-6 group-hover:bg-accent group-hover:text-white transition-colors"
+            >
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+            <h4 class="text-xl font-bold text-primary mb-3">UI/UX Design</h4>
+            <p class="text-slate-600 leading-relaxed">
+              Desain antarmuka yang estetis dan fungsional berbasis riset untuk
+              meningkatkan konversi dan retensi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO SECTION ================= -->
+    <section id="portfolio" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+          <div class="max-w-2xl">
+            <h2
+              class="text-accent font-bold tracking-wide uppercase text-sm mb-2"
+            >
+              Karya Kami
+            </h2>
+            <h3 class="text-3xl md:text-4xl font-bold text-primary">
+              Proyek Terbaru
+            </h3>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <a
+              href="#"
+              class="text-accent font-semibold hover:text-blue-700 flex items-center gap-2 transition-colors"
+            >
+              Lihat Semua Proyek <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Portfolio 1 -->
+          <div
+            class="group rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 bg-slate-50"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="SaaS Dashboard"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              />
+              <div
+                class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-primary shadow-sm"
+              >
+                SaaS Platform
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-primary mb-2">
+                FinTech Analytics Dashboard
+              </h4>
+              <p class="text-slate-600 text-sm">
+                Dashboard analitik keuangan real-time dengan integrasi berbagai
+                payment gateway.
+              </p>
+            </div>
+          </div>
+
+          <!-- Portfolio 2 -->
+          <div
+            class="group rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 bg-slate-50"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="E-commerce App"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              />
+              <div
+                class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-primary shadow-sm"
+              >
+                E-Commerce
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-primary mb-2">
+                UrbanMart Mobile App
+              </h4>
+              <p class="text-slate-600 text-sm">
+                Aplikasi belanja online dengan fitur AI recommendation dan
+                pelacakan kurir live.
+              </p>
+            </div>
+          </div>
+
+          <!-- Portfolio 3 -->
+          <div
+            class="group rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 bg-slate-50"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div class="relative overflow-hidden h-64">
+              <img
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="School App"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+              />
+              <div
+                class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-primary shadow-sm"
+              >
+                School App
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-primary mb-2">
+                EduManage System
+              </h4>
+              <p class="text-slate-600 text-sm">
+                Sistem informasi akademik terpadu untuk absensi, e-learning, dan
+                laporan nilai siswa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRUST BUILDER (Why Choose Us) ================= -->
+    <section class="py-20 bg-primary text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2
+            class="text-accent font-bold tracking-wide uppercase text-sm mb-2"
+          >
+            Mengapa Memilih AHZA Digitals?
+          </h2>
+          <h3 class="text-3xl md:text-4xl font-bold">
+            Keunggulan Layanan Kami
+          </h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <!-- Poin 1 -->
+          <div class="text-center" data-aos="fade-up" data-aos-duration="800">
+            <div
+              class="w-20 h-20 mx-auto bg-slate-800 rounded-2xl flex items-center justify-center text-accent text-3xl mb-6 shadow-lg shadow-blue-900/20"
+            >
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3">Pengiriman Cepat</h4>
+            <p class="text-slate-400">
+              Metodologi Agile kami memastikan proyek Anda selesai tepat waktu
+              tanpa mengorbankan kualitas dan detail.
+            </p>
+          </div>
+
+          <!-- Poin 2 -->
+          <div
+            class="text-center"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            <div
+              class="w-20 h-20 mx-auto bg-slate-800 rounded-2xl flex items-center justify-center text-accent text-3xl mb-6 shadow-lg shadow-blue-900/20"
+            >
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3">Teknologi Terbaru</h4>
+            <p class="text-slate-400">
+              Kami menggunakan stack teknologi paling modern dan aman untuk
+              memastikan produk Anda siap untuk masa depan.
+            </p>
+          </div>
+
+          <!-- Poin 3 -->
+          <div
+            class="text-center"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div
+              class="w-20 h-20 mx-auto bg-slate-800 rounded-2xl flex items-center justify-center text-accent text-3xl mb-6 shadow-lg shadow-blue-900/20"
+            >
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3">Keamanan Data</h4>
+            <p class="text-slate-400">
+              Keamanan adalah prioritas. Arsitektur sistem kami dirancang dengan
+              standar enkripsi tinggi untuk melindungi data Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ SECTION ================= -->
+    <section id="faq" class="py-24 bg-slate-50">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2
+            class="text-accent font-bold tracking-wide uppercase text-sm mb-2"
+          >
+            FAQ
+          </h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-primary">
+            Pertanyaan Umum
+          </h3>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ Item 1 -->
+          <details
+            class="group bg-white border border-slate-200 rounded-xl [&_summary::-webkit-details-marker]:hidden"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between gap-1.5 p-6 font-semibold text-primary"
+            >
+              <span class="text-lg"
+                >Berapa estimasi biaya untuk pembuatan aplikasi/website?</span
+              >
+              <span
+                class="shrink-0 rounded-full bg-slate-50 p-1.5 text-slate-500 transition duration-300 group-open:-rotate-180"
+              >
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </summary>
+            <div
+              class="px-6 pb-6 text-slate-600 leading-relaxed border-t border-slate-100 pt-4 mt-2"
+            >
+              Biaya bervariasi tergantung kompleksitas fitur, platform yang
+              dipilih, dan skala proyek. Kami selalu menyediakan sesi konsultasi
+              gratis di awal untuk memahami kebutuhan Anda secara detail sebelum
+              memberikan estimasi penawaran harga yang transparan.
+            </div>
+          </details>
+
+          <!-- FAQ Item 2 -->
+          <details
+            class="group bg-white border border-slate-200 rounded-xl [&_summary::-webkit-details-marker]:hidden"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between gap-1.5 p-6 font-semibold text-primary"
+            >
+              <span class="text-lg"
+                >Berapa lama durasi pengerjaan sebuah proyek?</span
+              >
+              <span
+                class="shrink-0 rounded-full bg-slate-50 p-1.5 text-slate-500 transition duration-300 group-open:-rotate-180"
+              >
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </summary>
+            <div
+              class="px-6 pb-6 text-slate-600 leading-relaxed border-t border-slate-100 pt-4 mt-2"
+            >
+              Untuk website Company Profile standar, biasanya memakan waktu 2-3
+              minggu. Sedangkan untuk aplikasi mobile atau sistem enterprise
+              custom, durasinya bisa berkisar antara 2 hingga 6 bulan. Timeline
+              pasti akan disepakati bersama dalam kontrak kerja.
+            </div>
+          </details>
+
+          <!-- FAQ Item 3 -->
+          <details
+            class="group bg-white border border-slate-200 rounded-xl [&_summary::-webkit-details-marker]:hidden"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <summary
+              class="flex cursor-pointer items-center justify-between gap-1.5 p-6 font-semibold text-primary"
+            >
+              <span class="text-lg"
+                >Apakah ada layanan pemeliharaan (maintenance) setelah proyek
+                selesai?</span
+              >
+              <span
+                class="shrink-0 rounded-full bg-slate-50 p-1.5 text-slate-500 transition duration-300 group-open:-rotate-180"
+              >
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </summary>
+            <div
+              class="px-6 pb-6 text-slate-600 leading-relaxed border-t border-slate-100 pt-4 mt-2"
+            >
+              Tentu saja. Kami memberikan garansi bug-fixing gratis selama masa
+              awal perilisan (umumnya 1-3 bulan). Setelah itu, kami menawarkan
+              paket maintenance bulanan untuk menjaga keamanan server, update
+              sistem, dan backup data rutin.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT & FOOTER ================= -->
+    <footer
+      id="contact"
+      class="bg-primary text-slate-300 border-t border-slate-800"
+    >
+      <!-- Contact Top Area -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24">
+          <!-- Info Kolom Kiri -->
+          <div>
+            <div class="flex items-center gap-2 mb-6">
+              <div
+                class="w-8 h-8 bg-accent text-white flex items-center justify-center rounded font-bold"
+              >
+                A
+              </div>
+              <span class="font-bold text-2xl text-white tracking-tight"
+                >AHZA<span class="text-accent">.</span></span
+              >
+            </div>
+            <p class="mb-8 leading-relaxed">
+              Kami adalah tim engineer dan desainer yang bersemangat menciptakan
+              produk digital bernilai tinggi. Mari diskusikan bagaimana kami
+              bisa membantu bisnis Anda tumbuh melalui teknologi.
+            </p>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4">
+                <i
+                  class="fa-solid fa-location-dot mt-1 text-accent text-lg"
+                ></i>
+                <p>Rajasinga<br />Terisi, Indramayu Regency, West Java</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <i class="fa-solid fa-envelope text-accent text-lg"></i>
+                <p>ahzadigitals@gmail.com</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <i class="fa-solid fa-phone text-accent text-lg"></i>
+                <p>+62 878 2236 8008</p>
+              </div>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="flex gap-4 mt-8">
+              <a
+                href="#"
+                class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Peta Kolom Kanan -->
+          <div
+            class="h-64 sm:h-auto min-h-[300px] rounded-2xl overflow-hidden shadow-lg border border-slate-800 relative"
+          >
+            <!-- Placeholder Map -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5558896046505!2d108.13916661530394!3d-6.480587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6eaf13c8c8c8c9%3A0x5e5e5e5e5e5e5e5e!2sRajasinga%2C%20Terisi%2C%20Indramayu%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1680000000000!5m2!1sen!2sid"
+              class="absolute inset-0 w-full h-full"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Bottom -->
+      <div class="border-t border-slate-800 bg-slate-950 py-6">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-500 text-sm">
+          &copy; <span id="year"></span> AHZA Digitals. All rights reserved.
+          Built with passion & technology.
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= FLOATING WHATSAPP BUTTON ================= -->
+    <a
+      href="https://wa.me/6287822368008"
+      target="_blank"
+      class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1ebd5a] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg shadow-green-500/30 hover:scale-110 transition-transform duration-300"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+      <!-- Ping Animation -->
+      <span
+        class="absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-30 animate-ping"
+      ></span>
+    </a>
+
+    <!-- ================= SCRIPTS ================= -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Initialize AOS (Animate On Scroll)
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out-quad",
+        once: false,
+        mirror: true,
+        offset: 100,
+      });
+
+      // Set dynamic year for footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Mobile Menu Toggle Logic
+      const btn = document.getElementById("mobile-menu-btn");
+      const menu = document.getElementById("mobile-menu");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+
+      // Close mobile menu when a link is clicked
+      const mobileLinks = menu.querySelectorAll("a");
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.add("hidden");
+        });
+      });
+    </script>
+  </body>
+</html>
