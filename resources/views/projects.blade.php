@@ -53,6 +53,16 @@
     </style>
 </head>
 <body class="font-sans text-slate-800 antialiased bg-slate-50">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20untuk%20mendiskusikan%20proyek%20digital%20saya.%20Bisa%20bantu%20saya%3F"
+       target="_blank"
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1ebd5a] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg shadow-green-500/30 hover:scale-110 transition-transform duration-300"
+    >
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- Ping Animation -->
+        <span class="absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-30 animate-ping"></span>
+    </a>
+
     <!-- ================= NAVBAR ================= -->
     <header class="fixed w-full top-0 z-50 glass shadow-sm">
         <div class="max-w-7xl mx-auto px-6">
@@ -131,7 +141,7 @@
                         Punya Ide Gila? <br/> Mari <span class="text-indigo-200">Wujudkan</span>.
                     </h3>
                     <div class="flex flex-col sm:flex-row gap-6 justify-center">
-                        <a href="https://wa.me/6287822368008" class="bg-white text-accent px-12 py-6 rounded-[2rem] font-bold text-xl hover:bg-slate-100 transition-all shadow-xl hover:-translate-y-1">
+                        <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20untuk%20mendiskusikan%20proyek%20digital%20saya.%20Bisa%20bantu%20saya%3F" class="bg-white text-accent px-12 py-6 rounded-[2rem] font-bold text-xl hover:bg-slate-100 transition-all shadow-xl hover:-translate-y-1">
                             Hubungi Kami Via WhatsApp
                         </a>
                         <a href="mailto:ahzadigitals@gmail.com" class="bg-white/10 text-white border border-white/20 px-12 py-6 rounded-[2rem] font-bold text-xl backdrop-blur-md hover:bg-white/20 transition-all hover:-translate-y-1">
