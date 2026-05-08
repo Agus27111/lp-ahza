@@ -109,7 +109,9 @@
                 <!-- Desktop Menu -->
                 <nav class="hidden md:flex items-center gap-1">
                     <a href="#home" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Home</a>
-                    <a href="#services" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Services</a>
+                    <a href="#why-website" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Mengapa Website?</a>
+                    <a href="#solutions" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Solusi Bisnis</a>
+                    <a href="#pricing" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Paket Investasi</a>
                     <a href="#portfolio" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Portfolio</a>
                     <a href="#process" class="px-4 py-2 text-slate-600 hover:text-accent font-semibold transition-colors">Process</a>
                     <a href="#contact" class="ml-4 bg-accent hover:bg-secondary text-white px-7 py-3 rounded-2xl font-bold transition-all shadow-xl shadow-accent/25 hover:shadow-accent/40 active:scale-95">
@@ -130,7 +132,9 @@
         <div id="mobile-menu" class="hidden md:hidden absolute top-24 left-6 right-6 p-6 rounded-3xl glass shadow-2xl border border-white/40">
             <nav class="flex flex-col gap-2 text-center">
                 <a href="#home" class="py-4 text-slate-700 font-bold hover:bg-white/50 rounded-2xl">Home</a>
-                <a href="#services" class="py-4 text-slate-700 font-bold hover:bg-white/50 rounded-2xl">Services</a>
+                <a href="#why-website" class="py-4 text-slate-700 font-bold hover:bg-white/50 rounded-2xl">Mengapa Website?</a>
+                <a href="#solutions" class="py-4 text-slate-700 font-bold hover:bg-white/50 rounded-2xl">Solusi Bisnis</a>
+                <a href="#pricing" class="py-4 text-slate-700 font-bold hover:bg-white/50 rounded-2xl">Paket Investasi</a>
                 <a href="#portfolio" class="py-4 text-slate-700 font-bold hover:bg-white/50 rounded-2xl">Portfolio</a>
                 <a href="#contact" class="mt-4 bg-accent text-white py-5 rounded-2xl font-bold shadow-xl">Mulai Proyek</a>
             </nav>
@@ -159,22 +163,22 @@
                     Trusted by Innovators Worldwide
                 </div>
                 
-                <h1 class="text-5xl md:text-8xl font-heading font-extrabold text-white leading-[1.1] mb-8" data-aos="fade-up" data-aos-delay="200">
-                    Membangun <br/>
-                    <span class="text-gradient">Masa Depan</span> <br/>
-                    Lewat Kode.
+                <h1 class="text-5xl md:text-7xl font-heading font-extrabold text-white leading-[1.15] mb-8" data-aos="fade-up" data-aos-delay="200">
+                    Bikin Bisnis Anda <br/>
+                    <span class="text-gradient">Lebih Dipercaya</span> <br/>
+                    & Banjir Orderan.
                 </h1>
                 
                 <p class="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-2xl font-medium" data-aos="fade-up" data-aos-delay="400">
-                    Kami menghidupkan ide digital Anda dengan desain yang memukau dan arsitektur kode yang tangguh. Solusi end-to-end untuk bisnis skala global.
+                    Bukan sekadar website biasa. Kami membangun aset digital profesional yang dirancang khusus untuk membangun kredibilitas brand Anda, mendatangkan leads berkualitas, dan mengotomatiskan penjualan 24 jam nonstop.
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-6" data-aos="fade-up" data-aos-delay="600">
-                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20untuk%20mendiskusikan%20proyek%20digital%20saya.%20Bisa%20bantu%20saya%3F" target="_blank" class="flex justify-center items-center gap-3 bg-accent hover:bg-secondary text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all shadow-2xl shadow-accent/40 group hover:-translate-y-1">
-                        <i class="fa-brands fa-whatsapp text-2xl group-hover:scale-110 transition-transform"></i> Konsultasi Sekarang
+                    <a href="#solutions" class="flex justify-center items-center gap-3 bg-accent hover:bg-secondary text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all shadow-2xl shadow-accent/40 group hover:-translate-y-1">
+                        <i class="fa-solid fa-lightbulb text-xl group-hover:animate-bounce"></i> Cari Tahu Solusi Bisnis Anda
                     </a>
-                    <a href="#portfolio" class="flex justify-center items-center gap-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-10 py-5 rounded-2xl font-bold text-lg transition-all backdrop-blur-md hover:-translate-y-1">
-                        Lihat Karya Kami
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20ingin%20konsultasi%20mengenai%20kebutuhan%20website%20untuk%20menaikkan%20omset%20dan%20kepercayaan%20bisnis%20saya." target="_blank" class="flex justify-center items-center gap-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-10 py-5 rounded-2xl font-bold text-lg transition-all backdrop-blur-md hover:-translate-y-1">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i> Konsultasi Langsung
                     </a>
                 </div>
             </div>
@@ -239,56 +243,333 @@
         </div>
     </div>
 
-    <!-- ================= SERVICES SECTION ================= -->
-    <section id="services" class="py-32 bg-white relative overflow-hidden">
+    <!-- ================= WHY WEBSITE SECTION ================= -->
+    <section id="why-website" class="py-32 bg-slate-50 relative overflow-hidden">
+        <!-- Floating shapes -->
+        <div class="absolute top-1/3 left-10 w-72 h-72 bg-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute bottom-1/3 right-10 w-72 h-72 bg-indigo-500/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+                <h2 class="text-accent font-extrabold tracking-[0.2em] uppercase text-sm mb-4">Pentingnya Website</h2>
+                <h3 class="text-4xl md:text-5xl font-heading font-extrabold text-primary leading-tight mb-6">
+                    Kenapa Bisnis Anda <br/><span class="text-gradient">Wajib Punya Website</span> Sekarang?
+                </h3>
+                <p class="text-slate-500 text-lg md:text-xl font-medium">
+                    Di era digital, tidak memiliki website resmi membuat bisnis Anda kehilangan potensi omset puluhan juta rupiah dan kalah bersaing dari kompetitor.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Point 1 -->
+                <div class="p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm transition-all duration-500 card-hover flex gap-6" data-aos="fade-up">
+                    <div class="w-16 h-16 bg-indigo-50 text-indigo-500 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-3">Membangun Kredibilitas Instan</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">
+                            <strong class="text-slate-700">84% pelanggan</strong> lebih percaya pada bisnis yang memiliki website resmi dengan domain sendiri (<code class="bg-slate-100 px-1 py-0.5 rounded text-indigo-500 font-mono text-sm">.com</code>) dibandingkan bisnis yang hanya mengandalkan akun media sosial gratisan.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Point 2 -->
+                <div class="p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm transition-all duration-500 card-hover flex gap-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-emerald-50 text-emerald-500 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-3">Toko & Portofolio Buka 24 Jam</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">
+                            Website Anda adalah tim sales digital terbaik yang <strong class="text-slate-700">bekerja 24 jam nonstop</strong>, menyajikan katalog lengkap dan informasi produk bahkan ketika Anda dan admin Anda sedang tidur terlelap.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Point 3 -->
+                <div class="p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm transition-all duration-500 card-hover flex gap-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-amber-50 text-amber-500 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">
+                        <i class="fa-solid fa-link-slash"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-3">Bebas dari Ketergantungan Sosmed</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">
+                            Algoritma media sosial (IG, TikTok, FB) terus berubah dan jangkauan organik Anda bisa drop kapan saja. Website adalah <strong class="text-slate-700">aset digital milik Anda seutuhnya</strong> tanpa intervensi pihak luar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Point 4 -->
+                <div class="p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm transition-all duration-500 card-hover flex gap-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-sky-50 text-sky-500 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-3">Mudah Ditemukan Lewat Google</h4>
+                        <p class="text-slate-500 leading-relaxed font-medium">
+                            Setiap hari ada jutaan orang mencari solusi produk/jasa lewat Google Search. Website yang dioptimasi dengan SEO membuat bisnis Anda <strong class="text-slate-700">muncul di baris terdepan</strong> saat dicari calon pembeli.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SOLUTIONS / SERVICES SECTION ================= -->
+    <section id="solutions" class="py-32 bg-white relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-20">
                 <div class="max-w-2xl" data-aos="fade-right">
-                    <h2 class="text-accent font-extrabold tracking-[0.2em] uppercase text-sm mb-4">Our Expertise</h2>
-                    <h3 class="text-4xl md:text-6xl font-heading font-extrabold text-primary leading-tight">
-                        Layanan <span class="text-accent">Digital</span> <br/> yang Kami Kuasai.
+                    <h2 class="text-accent font-extrabold tracking-[0.2em] uppercase text-sm mb-4">Temukan Solusi Anda</h2>
+                    <h3 class="text-4xl md:text-5xl font-heading font-extrabold text-primary leading-tight">
+                        Pilih <span class="text-accent">Masalah Bisnis Anda</span>,<br/> Kami Siapkan Solusinya.
                     </h3>
                 </div>
                 <p class="text-slate-500 text-lg md:text-xl max-w-md font-medium leading-relaxed" data-aos="fade-left" data-aos-delay="200">
-                    Setiap tantangan adalah peluang untuk berinovasi. Kami memberikan hasil yang melampaui ekspektasi.
+                    Setiap bisnis memiliki tantangan berbeda. Klik salah satu kartu masalah di bawah untuk berkonsultasi solusi spesifik via WhatsApp!
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Service Item 1 -->
-                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover group" data-aos="fade-up">
-                    <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-accent text-3xl mb-8 shadow-sm group-hover:bg-accent group-hover:text-white transition-all duration-300">
-                        <i class="fa-solid fa-code"></i>
+                <!-- Solution Card 1 -->
+                <div class="p-8 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover flex flex-col justify-between group" data-aos="fade-up">
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-indigo-500 text-3xl mb-8 shadow-sm group-hover:bg-indigo-500 group-hover:text-white transition-all duration-300">
+                            <i class="fa-solid fa-building-shield"></i>
+                        </div>
+                        <span class="text-indigo-500 font-bold text-xs uppercase tracking-widest block mb-2">Masalah 1: Kurang Kredibilitas</span>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-4 leading-snug">"Bisnis saya dikira penipu / belum terpercaya"</h4>
+                        <div class="h-px bg-slate-200 my-4"></div>
+                        <span class="text-slate-400 font-bold text-[10px] uppercase tracking-wider block mb-1">Rekomendasi Solusi</span>
+                        <h5 class="text-lg font-heading font-extrabold text-indigo-600 mb-3">Website Company Profile</h5>
+                        <p class="text-slate-500 text-sm leading-relaxed font-medium mb-6">Membangun citra premium, memajang legalitas, profil tim, layanan, dan portofolio agar klien 10x lebih percaya.</p>
                     </div>
-                    <h4 class="text-2xl font-heading font-bold text-primary mb-4">Web Apps</h4>
-                    <p class="text-slate-500 leading-relaxed font-medium">Aplikasi web kustom yang cepat, aman, dan dapat diskalakan dengan teknologi terbaru.</p>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20membuat%20Website%20Company%20Profile%20agar%20bisnis%20saya%20lebih%20dipercaya%20pelanggan%20dan%20terlihat%20profesional." target="_blank" class="w-full bg-indigo-50 hover:bg-indigo-500 hover:text-white text-indigo-600 font-bold py-4 px-6 rounded-2xl text-center text-sm transition-all duration-300 flex items-center justify-center gap-2">
+                        Pilih Solusi Ini <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
                 </div>
 
-                <!-- Service Item 2 -->
-                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover group" data-aos="fade-up" data-aos-delay="100">
-                    <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-indigo-500 text-3xl mb-8 shadow-sm group-hover:bg-indigo-500 group-hover:text-white transition-all duration-300">
-                        <i class="fa-solid fa-mobile-button"></i>
+                <!-- Solution Card 2 -->
+                <div class="p-8 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover flex flex-col justify-between group" data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-emerald-500 text-3xl mb-8 shadow-sm group-hover:bg-emerald-500 group-hover:text-white transition-all duration-300">
+                            <i class="fa-solid fa-store"></i>
+                        </div>
+                        <span class="text-emerald-500 font-bold text-xs uppercase tracking-widest block mb-2">Masalah 2: Kewalahan Balas Chat</span>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-4 leading-snug">"Capek jawab pertanyaan harga & stok satu-satu"</h4>
+                        <div class="h-px bg-slate-200 my-4"></div>
+                        <span class="text-slate-400 font-bold text-[10px] uppercase tracking-wider block mb-1">Rekomendasi Solusi</span>
+                        <h5 class="text-lg font-heading font-extrabold text-emerald-600 mb-3">E-Commerce & Katalog Online</h5>
+                        <p class="text-slate-500 text-sm leading-relaxed font-medium mb-6">Pajang semua produk dengan kategori rapi, harga transparan, stok otomatis, dan integrasi checkout order WhatsApp terstruktur.</p>
                     </div>
-                    <h4 class="text-2xl font-heading font-bold text-primary mb-4">Mobile Solutions</h4>
-                    <p class="text-slate-500 leading-relaxed font-medium">Pengalaman mobile native dan cross-platform yang memanjakan pengguna di setiap sentuhan.</p>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20membuat%20Website%20Katalog%20%2F%20E-Commerce%20agar%20bisa%20menampilkan%20produk%20secara%20otomatis%20tanpa%20capek%20balas%20chat%20satu-satu." target="_blank" class="w-full bg-emerald-50 hover:bg-emerald-500 hover:text-white text-emerald-600 font-bold py-4 px-6 rounded-2xl text-center text-sm transition-all duration-300 flex items-center justify-center gap-2">
+                        Pilih Solusi Ini <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
                 </div>
 
-                <!-- Service Item 3 -->
-                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover group" data-aos="fade-up" data-aos-delay="200">
-                    <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-blue-500 text-3xl mb-8 shadow-sm group-hover:bg-blue-500 group-hover:text-white transition-all duration-300">
-                        <i class="fa-solid fa-brain"></i>
+                <!-- Solution Card 3 -->
+                <div class="p-8 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover flex flex-col justify-between group" data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-rose-500 text-3xl mb-8 shadow-sm group-hover:bg-rose-500 group-hover:text-white transition-all duration-300">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <span class="text-rose-500 font-bold text-xs uppercase tracking-widest block mb-2">Masalah 3: Jasa Sepi Orderan</span>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-4 leading-snug">"Jasa saya sepi & tidak ada yang kenal"</h4>
+                        <div class="h-px bg-slate-200 my-4"></div>
+                        <span class="text-slate-400 font-bold text-[10px] uppercase tracking-wider block mb-1">Rekomendasi Solusi</span>
+                        <h5 class="text-lg font-heading font-extrabold text-rose-600 mb-3">High-Conversion Landing Page</h5>
+                        <p class="text-slate-500 text-sm leading-relaxed font-medium mb-6">Desain satu halaman khusus fokus penawaran jasa Anda dengan copywriting persuasif tinggi agar pengunjung langsung closing ke WA.</p>
                     </div>
-                    <h4 class="text-2xl font-heading font-bold text-primary mb-4">AI & Automation</h4>
-                    <p class="text-slate-500 leading-relaxed font-medium">Integrasi kecerdasan buatan untuk mengotomatisasi alur kerja dan meningkatkan efisiensi.</p>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20membuat%20Landing%20Page%20berkonversi%20tinggi%20agar%20jasa%2Fproduk%20saya%20kebanjiran%20orderan%20dan%20leads." target="_blank" class="w-full bg-rose-50 hover:bg-rose-500 hover:text-white text-rose-600 font-bold py-4 px-6 rounded-2xl text-center text-sm transition-all duration-300 flex items-center justify-center gap-2">
+                        Pilih Solusi Ini <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
                 </div>
 
-                <!-- Service Item 4 -->
-                <div class="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover group" data-aos="fade-up" data-aos-delay="300">
-                    <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-purple-500 text-3xl mb-8 shadow-sm group-hover:bg-purple-500 group-hover:text-white transition-all duration-300">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <!-- Solution Card 4 -->
+                <div class="p-8 rounded-[2.5rem] bg-slate-50 border border-slate-100 transition-all duration-500 card-hover flex flex-col justify-between group" data-aos="fade-up" data-aos-delay="300">
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-amber-500 text-3xl mb-8 shadow-sm group-hover:bg-amber-500 group-hover:text-white transition-all duration-300">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <span class="text-amber-500 font-bold text-xs uppercase tracking-widest block mb-2">Masalah 4: Operasional Berantakan</span>
+                        <h4 class="text-2xl font-heading font-bold text-primary mb-4 leading-snug">"Sistem kerja & catat kelola data bisnis masih kacau"</h4>
+                        <div class="h-px bg-slate-200 my-4"></div>
+                        <span class="text-slate-400 font-bold text-[10px] uppercase tracking-wider block mb-1">Rekomendasi Solusi</span>
+                        <h5 class="text-lg font-heading font-extrabold text-amber-600 mb-3">Custom Web Application / System</h5>
+                        <p class="text-slate-500 text-sm leading-relaxed font-medium mb-6">Aplikasi manajemen internal, kasir, inventori, ERP, atau sistem kustom khusus yang dirancang sesuai dengan SOP bisnis Anda.</p>
                     </div>
-                    <h4 class="text-2xl font-heading font-bold text-primary mb-4">Premium UI/UX</h4>
-                    <p class="text-slate-500 leading-relaxed font-medium">Desain antarmuka yang intuitif dan estetik untuk meningkatkan retensi pengguna.</p>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20membuat%20Web%20App%20%2F%20Sistem%20Kustom%20untuk%20merapikan%20manajemen%20dan%20data%20operasional%20bisnis%20saya." target="_blank" class="w-full bg-amber-50 hover:bg-amber-500 hover:text-white text-amber-600 font-bold py-4 px-6 rounded-2xl text-center text-sm transition-all duration-300 flex items-center justify-center gap-2">
+                        Pilih Solusi Ini <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PRICING SECTION ================= -->
+    <section id="pricing" class="py-32 bg-slate-50 relative overflow-hidden">
+        <!-- Floating details -->
+        <div class="absolute top-1/4 -right-20 w-80 h-80 bg-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute bottom-1/4 -left-20 w-80 h-80 bg-indigo-500/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+                <h2 class="text-accent font-extrabold tracking-[0.2em] uppercase text-sm mb-4">Daftar Harga</h2>
+                <h3 class="text-4xl md:text-5xl font-heading font-extrabold text-primary leading-tight mb-6">
+                    Pilihan Paket <br/><span class="text-gradient">Investasi Digital</span> Anda
+                </h3>
+                <p class="text-slate-500 text-lg md:text-xl font-medium">
+                    Pilih paket penawaran transparan di bawah ini. Semua paket bersifat fleksibel dan dapat dikustomisasi penuh sesuai kebutuhan spesifik bisnis Anda.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Package 1: Landing Page -->
+                <div class="bg-white rounded-[2.5rem] border border-slate-100 p-8 md:p-10 shadow-sm hover:shadow-2xl transition-all duration-500 card-hover flex flex-col justify-between relative overflow-hidden" data-aos="fade-up">
+                    <div>
+                        <div class="mb-8">
+                            <span class="px-4 py-2 rounded-2xl bg-indigo-50 text-indigo-600 text-xs font-bold uppercase tracking-wider">Leads & Konversi</span>
+                        </div>
+                        <h4 class="text-3xl font-heading font-extrabold text-primary mb-2">Paket Landing Page</h4>
+                        <p class="text-slate-400 font-medium text-sm mb-6">Cocok untuk promosi satu produk unggulan, jasa profesional, atau kampanye promosi terfokus.</p>
+                        
+                        <div class="flex items-baseline gap-1 mb-8 border-b border-slate-100 pb-8">
+                            <span class="text-slate-500 text-sm font-semibold">Mulai Dari</span>
+                            <span class="text-4xl md:text-5xl font-heading font-extrabold text-primary">Rp 250rb</span>
+                        </div>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Desain 1 Halaman Responsif Modern</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Gratis Domain <code class="bg-slate-50 px-1 py-0.5 rounded text-indigo-500">.com</code> (1 Tahun)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Hosting Premium Berkecepatan Tinggi (1 Tahun)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Integrasi Tombol WhatsApp Interaktif</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Optimasi SEO Dasar & Sertifikasi SSL Gratis</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-indigo-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">AOS Animation & Efek Visual Premium</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20mengambil%20Paket%20Landing%20Page%20(Mulai%20dari%20Rp%20250rb)%20untuk%20menaikkan%20leads%20bisnis%20saya.%20Bisa%20bantu%20jelaskan%20detailnya%3F" target="_blank" class="w-full bg-slate-50 hover:bg-indigo-600 hover:text-white text-slate-800 font-bold py-5 px-6 rounded-2xl text-center transition-all duration-300 flex items-center justify-center gap-2 shadow-sm">
+                        Ambil Paket Ini <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+
+                <!-- Package 2: Company Profile (Terpopuler) -->
+                <div class="bg-white rounded-[2.5rem] border-2 border-accent p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 card-hover flex flex-col justify-between relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Popular Tag -->
+                    <div class="absolute top-0 right-0 bg-accent text-white font-extrabold text-xs tracking-wider uppercase py-2 px-8 rounded-bl-3xl">
+                        Terpopuler
+                    </div>
+                    
+                    <div>
+                        <div class="mb-8">
+                            <span class="px-4 py-2 rounded-2xl bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider">Kredibilitas & Brand</span>
+                        </div>
+                        <h4 class="text-3xl font-heading font-extrabold text-primary mb-2">Paket Company Profile</h4>
+                        <p class="text-slate-400 font-medium text-sm mb-6">Pilihan paling tepat untuk membangun citra premium perusahaan, instansi, sekolah, atau UMKM naik kelas.</p>
+                        
+                        <div class="flex items-baseline gap-1 mb-8 border-b border-slate-100 pb-8">
+                            <span class="text-slate-500 text-sm font-semibold">Mulai Dari</span>
+                            <span class="text-4xl md:text-5xl font-heading font-extrabold text-accent">Rp 1.7jt</span>
+                        </div>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Desain Website Multi-Halaman (Home, About, Jasa, Kontak)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm"><strong class="text-slate-800">Admin Panel Filament 4 (CMS)</strong> - Kelola konten, foto, dan profil secara mandiri tanpa coding!</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Gratis Domain <code class="bg-slate-50 px-1 py-0.5 rounded text-accent">.com</code> / <code class="bg-slate-50 px-1 py-0.5 rounded text-accent">.id</code> (1 Tahun)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Hosting Premium Berkecepatan Tinggi (1 Tahun)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Email Bisnis Profesional (misal: <code class="bg-slate-50 px-1 rounded text-accent">halo@namausaha.com</code>)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Integrasi Sosial Media, Google Maps & Hubungi Kami WA</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-accent mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm"><strong class="text-slate-800">Garansi Maintenance 3 Bulan</strong> - Bimbingan penuh kelola admin panel, perbaikan bug gratis, & bantuan backup rutin agar web selalu aman.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20mengambil%20Paket%20Company%20Profile%20(Mulai%20dari%20Rp%201.7jt)%20agar%20bisnis%20saya%20lebih%20dipercaya%20dan%20punya%20admin%20panel.%20Bisa%20bantu%20jelaskan%20detailnya%3F" target="_blank" class="w-full bg-accent hover:bg-secondary text-white font-bold py-5 px-6 rounded-2xl text-center transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-accent/20 hover:shadow-accent/40">
+                        Ambil Paket Ini <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                </div>
+
+                <!-- Package 3: Custom App & E-Commerce -->
+                <div class="bg-white rounded-[2.5rem] border border-slate-100 p-8 md:p-10 shadow-sm hover:shadow-2xl transition-all duration-500 card-hover flex flex-col justify-between relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div class="mb-8">
+                            <span class="px-4 py-2 rounded-2xl bg-amber-50 text-amber-600 text-xs font-bold uppercase tracking-wider">Otomatisasi & Kustom</span>
+                        </div>
+                        <h4 class="text-3xl font-heading font-extrabold text-primary mb-2">Custom System & E-Commerce</h4>
+                        <p class="text-slate-400 font-medium text-sm mb-6">Sistem manajemen kustom, toko online checkout WA/Sistem, aplikasi internal instansi, sistem kelola PPDB sekolah, dsb.</p>
+                        
+                        <div class="flex items-baseline gap-1 mb-8 border-b border-slate-100 pb-8">
+                            <span class="text-slate-500 text-sm font-semibold">Mulai Dari</span>
+                            <span class="text-4xl md:text-5xl font-heading font-extrabold text-primary">Rp 3.5jt</span>
+                        </div>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-amber-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Pengembangan Penuh dengan Laravel / Filament / Vue / Capacitor JS</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-amber-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Alur Kerja, Database, dan CRUD Disesuaikan dengan SOP Bisnis Anda</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-amber-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Toko Online Checkout Terstruktur Langsung ke Pesan WA atau Pembayaran</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-amber-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Sistem Keamanan Data Mutakhir & Proteksi Serangan</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-amber-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm">Pelatihan Operasional Penggunaan Sistem Selesai Pengerjaan</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-amber-500 mt-1"></i>
+                                <span class="text-slate-600 font-medium text-sm"><strong class="text-slate-800">Premium Maintenance 6 Bulan</strong> - Pemantauan server, penanganan bug prioritas, backup otomatis berkala, & pendampingan tim operasional eksklusif.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20mengambil%20Paket%20Custom%20System%20%2F%20E-Commerce%20(Mulai%20dari%20Rp%203.5jt)%20untuk%20operasional%20bisnis%20saya.%20Bisa%20bantu%20jelaskan%20detailnya%3F" target="_blank" class="w-full bg-slate-50 hover:bg-amber-500 hover:text-white text-slate-800 font-bold py-5 px-6 rounded-2xl text-center transition-all duration-300 flex items-center justify-center gap-2 shadow-sm">
+                        Konsultasi Kustom <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -410,13 +691,16 @@
                 <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-900/20 rounded-full blur-[100px]"></div>
 
                 <div class="relative z-10 max-w-3xl mx-auto">
-                    <h2 class="text-white/80 font-bold tracking-widest uppercase text-sm mb-6">Let's Work Together</h2>
-                    <h3 class="text-4xl md:text-7xl font-heading font-extrabold text-white mb-12 leading-tight">
-                        Punya Ide Gila? <br/> Mari <span class="text-indigo-200">Wujudkan</span>.
+                    <h2 class="text-white/80 font-bold tracking-widest uppercase text-sm mb-6">Mulai Transformasi Digital</h2>
+                    <h3 class="text-4xl md:text-7xl font-heading font-extrabold text-white mb-8 leading-tight">
+                        Siap Kembangkan <br/> Bisnis Anda <span class="text-indigo-200">Sekarang?</span>
                     </h3>
+                    <p class="text-white/80 text-lg md:text-xl font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
+                        Jangan biarkan calon pelanggan Anda beralih ke kompetitor hanya karena bisnis Anda belum memiliki website resmi. Hubungi kami sekarang dan dapatkan konsultasi strategi gratis!
+                    </p>
                     <div class="flex flex-col sm:flex-row gap-6 justify-center">
-                        <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20tertarik%20untuk%20mendiskusikan%20proyek%20digital%20saya.%20Bisa%20bantu%20saya%3F" class="bg-white text-accent px-12 py-6 rounded-[2rem] font-bold text-xl hover:bg-slate-100 transition-all shadow-xl hover:-translate-y-1">
-                            Hubungi Kami Via WhatsApp
+                        <a href="https://wa.me/6287822368008?text=Halo%20AHZA%20Digitals%2C%20saya%20ingin%20konsultasi%20gratis%20untuk%20mencari%20solusi%20website%20terbaik%20bagi%20perkembangan%20bisnis%20saya." class="bg-white text-accent px-12 py-6 rounded-[2rem] font-bold text-xl hover:bg-slate-100 transition-all shadow-xl hover:-translate-y-1 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i> Konsultasi Gratis Sekarang
                         </a>
                         <a href="mailto:ahzadigitals@gmail.com" class="bg-white/10 text-white border border-white/20 px-12 py-6 rounded-[2rem] font-bold text-xl backdrop-blur-md hover:bg-white/20 transition-all hover:-translate-y-1">
                             Kirim Email
@@ -450,9 +734,10 @@
                     <h4 class="text-primary font-bold text-lg mb-8 uppercase tracking-widest">Navigation</h4>
                     <ul class="space-y-4">
                         <li><a href="#home" class="text-slate-500 font-bold hover:text-accent transition-colors">Home</a></li>
-                        <li><a href="#services" class="text-slate-500 font-bold hover:text-accent transition-colors">Services</a></li>
+                        <li><a href="#why-website" class="text-slate-500 font-bold hover:text-accent transition-colors">Mengapa Website?</a></li>
+                        <li><a href="#solutions" class="text-slate-500 font-bold hover:text-accent transition-colors">Solusi Bisnis</a></li>
+                        <li><a href="#pricing" class="text-slate-500 font-bold hover:text-accent transition-colors">Paket Investasi</a></li>
                         <li><a href="#portfolio" class="text-slate-500 font-bold hover:text-accent transition-colors">Portfolio</a></li>
-                        <li><a href="#contact" class="text-slate-500 font-bold hover:text-accent transition-colors">Contact</a></li>
                     </ul>
                 </div>
 

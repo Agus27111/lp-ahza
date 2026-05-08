@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\GoogleController;
+use App\Http\Controllers\Auth\LoginController;
 use App\Models\Article;
 use App\Models\Comment;
 use App\Models\Profile;
@@ -35,7 +36,7 @@ Route::get('/articles/{slug}', function ($slug) {
         ->latest()
         ->take(5)
         ->get();
-    
+
     return view('articles.show', compact('article', 'relatedArticles', 'profile'));
 })->name('articles.show');
 
@@ -57,7 +58,11 @@ Route::post('/articles/{article}/comments', function (Request $request, Article 
     return redirect()->back()->with('success', 'Comment added!');
 })->name('comments.store');
 
+// Email/Password Auth Routes
+Route::get('login', [LoginController::class, 'show'])->name('login');
+Route::post('login', [LoginController::class, 'store'])->name('login.store');
+Route::post('logout', [LoginController::class, 'logout'])->name('logout');
+
 // Google Auth Routes
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle'])->name('google.login');
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
-Route::post('logout', [GoogleController::class, 'logout'])->name('logout');
